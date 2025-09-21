@@ -6,7 +6,7 @@ A comprehensive framework for implementing and testing trading strategies using 
 
 ```
 easy-mcpt/
-├── mcpt/                    # Core MCPT engine
+├── mcpt/                   # Core MCPT engine
 │   └── src/
 │       ├── core/           # Framework
 │       └── scripts/        # Entry points & runners
