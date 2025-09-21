@@ -1,0 +1,12 @@
+{
+  "donchian": {
+    "module": "resources.test.strats.donchian_strategy",
+    "class": "DonchianStrategy",
+    "description": "Donchian Breakout Strategy"
+  },
+  "bollinger": {
+    "module": "resources.test.strats.bollinger_bands",
+    "class": "BollingerBands",
+    "description": "Bollinger Band Mean Reversion"
+  }
+}
