@@ -123,7 +123,7 @@ class MyStrategy(TradingStrategy):
 
     def generate_signal(self, ohlc: pd.DataFrame, **params) -> StrategyResult:
         # Normalise OHLC columns (case-insensitive)
-        ohlc = self._normalize_ohlc(ohlc)
+        ohlc = self._normalise_ohlc(ohlc)
 
         # Implement your strategy logic here
         signal = pd.Series(0, index=ohlc.index)  # Your signals
